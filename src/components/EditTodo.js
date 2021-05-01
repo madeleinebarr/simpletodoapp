@@ -19,7 +19,7 @@ const EditTodo = ({ todo }) => {
               });
 
         
-              window.location = "/";
+              window.location = "/simpletodoapp/";
         } catch (err) {
             console.error(err.message);
         }
