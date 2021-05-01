@@ -21,7 +21,7 @@ const InputTodo = ({ todos }) => {
                 body: JSON.stringify(body),
             });
 
-            window.location = "/";
+            window.location = "/simpletodoapp/";
             
         } catch (err) {
             console.error(err.message);
