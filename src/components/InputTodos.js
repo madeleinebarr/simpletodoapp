@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 
 const InputTodo = ({ todos }) => {
-    const endpoint = "https://b35jbn.deta.dev/todos";
+    const endpoint = "https://7poy75.deta.dev/todos";
     
     const [item, setItem] = useState("");
 
